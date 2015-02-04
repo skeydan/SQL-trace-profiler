@@ -23,7 +23,7 @@ create table call
     access parameters
       (
         records delimited by newline
-        preprocessor trace_dir:'call.sh'
+        preprocessor trace_dir:'call.pl'
         logfile trace_dir:'call.log'
         badfile trace_dir:'call.bad'
         fields terminated by ','

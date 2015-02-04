@@ -14,7 +14,7 @@ create table cursor_close (
     access parameters
       (
         records delimited by newline
-        preprocessor  trace_dir:'cursor_close.sh'
+        preprocessor  trace_dir:'cursor_close.pl'
         logfile trace_dir:'cursor_close.log'
         badfile trace_dir:'cursor_close.bad'
         fields terminated by ',' 

@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-while () {
+while (<>) {
   if (/^CLOSE \#/) {
       s/^CLOSE \#//;
       s/[a-z]+=//g;

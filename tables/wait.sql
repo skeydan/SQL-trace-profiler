@@ -20,7 +20,7 @@ create table wait (
     access parameters
       (
         records delimited by newline
-        preprocessor  trace_dir:'wait.sh'
+        preprocessor  trace_dir:'wait.pl'
         logfile trace_dir:'wait.log'
         badfile trace_dir:'wait.bad'
         fields terminated by ',' optionally enclosed by "'"

@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-while () {
+while (<>) {
   if (/^(PARSE|EXEC|FETCH) \#/) {
       s/^(PARSE|EXEC|FETCH) \#(.+)/$1,$2/;
       s/[a-z]+=//g;

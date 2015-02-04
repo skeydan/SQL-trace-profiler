@@ -20,7 +20,7 @@ create table cursor (
     access parameters
       (
         records delimited by newline
-        preprocessor trace_dir:'cursor.sh'
+        preprocessor trace_dir:'cursor.pl'
         logfile trace_dir:'cursor.log'
         badfile trace_dir:'cursor.bad'
         fields terminated by '!' optionally enclosed by "'"
