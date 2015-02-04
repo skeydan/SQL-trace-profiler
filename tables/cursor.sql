@@ -9,7 +9,7 @@ create table cursor (
   parsing_schema_id number,
   tim number,
   hash_value number,
-  address varchar2(8),
+  address varchar2(9),
   sqlid varchar2(13),
   sql_text varchar2(4000)
   )
